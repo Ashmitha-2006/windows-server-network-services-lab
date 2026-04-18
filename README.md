@@ -1,45 +1,16 @@
-
-
-# 🖥️ Windows Server 2016 – DHCP & IIS Configuration Lab
-
-This project demonstrates the installation and configuration of core network services in **Windows Server 2016**, focusing on:
-
-* **DHCP (Dynamic Host Configuration Protocol)**
-* **IIS (Internet Information Services)**
-
-The lab simulates real-world enterprise tasks such as IP address management, DNS integration, and web server deployment using an Azure-based virtual machine.
+Got you — I’ll **fix your screenshot section (with working names)** + add a **clean skills section** so you can paste directly 👇
 
 ---
 
-## 🎯 Objectives
-
-* Deploy and configure DHCP server
-* Create and manage IP address scopes
-* Configure DNS settings for network clients
-* Install and configure IIS web server
-* Manage website directories, permissions, and limits
+# 📸 Lab Walkthrough
 
 ---
 
-## 🛠️ Environment
+## 🔹 DHCP Configuration
 
-* Windows Server 2016
-* Microsoft Azure Virtual Machine
-* Server Manager
-* PowerShell / Command Prompt
+### 📌 System Information Check
 
----
-
-## 📸 Lab Walkthrough
-
----
-
-### 🔹 DHCP Configuration
-
-#### 📌 System Information Check
-
-![System Info](screenshots/figure-1.png)
-
+![Figure 1.0](figure-1.png)
 Displays system date and full network configuration using:
 
 ```
@@ -48,129 +19,93 @@ date; ipconfig /all
 
 ---
 
-#### 📌 DHCP Role Installation
+### 📌 DHCP Role Installation
 
-![DHCP Install](screenshots/figure-2.png)
-
+![Figure 1.10](figure-2.png)
 Initial setup of the DHCP Server role through Server Manager.
 
 ---
 
-#### 📌 DHCP Server Console
+### 📌 DHCP Server Console
 
-![DHCP Console](screenshots/figure-3.png)
-
+![Figure 1.14](figure-3.png)
 Verification of DHCP installation with IPv4 and IPv6 visibility.
 
 ---
 
-#### 📌 Scope Configuration
+### 📌 Scope Configuration
 
-![Scope Setup](screenshots/figure-4.png)
-
+![Figure 1.17](figure-4.png)
 Creation of a DHCP scope to define IP address distribution.
 
 ---
 
-#### 📌 IP Address Range
+### 📌 IP Address Range
 
-![IP Range](screenshots/figure-5.png)
-
+![Figure 1.18](figure-5.png)
 Configuration of IP range and subnet mask for client allocation.
 
 ---
 
-#### 📌 DNS Dynamic Updates
+### 📌 DNS Dynamic Updates
 
-![DNS Settings](screenshots/figure-6.png)
-
+![Figure 1.35](figure-6.png)
 Ensures automatic DNS record updates for DHCP clients.
 
 ---
 
-### 🔹 IIS Configuration
+## 🔹 IIS Configuration
 
-#### 📌 System Check Before IIS
+### 📌 System Check Before IIS
 
-![System Info IIS](screenshots/figure-7.png)
-
+![Figure 2.0](figure-7.png)
 Validation of system configuration before IIS installation.
 
 ---
 
-#### 📌 IIS Role Selection
+### 📌 IIS Role Selection
 
-![IIS Role](screenshots/figure-8.png)
-
+![Figure 2.6](figure-8.png)
 Selection of Web Server (IIS) role and required features.
 
 ---
 
-#### 📌 Security Feature Configuration
+### 📌 Security Feature Configuration
 
-![Security Feature](screenshots/figure-9.png)
-
+![Figure 2.12](figure-9.png)
 Enabling IIS Client Certificate Mapping Authentication.
 
 ---
 
-#### 📌 Virtual Directory Setup
+### 📌 Virtual Directory Setup
 
-![Virtual Directory](screenshots/figure-10.png)
-
+![Figure 2.18](figure-10.png)
 Creation of a virtual directory for hosting web content.
 
 ---
 
-#### 📌 Default Document Settings
+### 📌 Default Document Settings
 
-![Default Doc](screenshots/figure-11.png)
-
+![Figure 2.27](figure-11.png)
 Configuration of default web pages for client requests.
 
 ---
 
-#### 📌 User Permissions
+### 📌 User Permissions
 
-![Permissions](screenshots/figure-12.png)
-
+![Figure 2.33](figure-12.png)
 Review of IIS user access and security permissions.
 
 ---
 
-#### 📌 Connection Limits Configuration
+### 📌 Connection Limits Configuration
 
-![Limits](screenshots/figure-13.png)
-
+![Figure 2.38](figure-13.png)
 Setting maximum connections and timeout limits to control server load.
 
 ---
 
-## 🧠 Key Learnings
-
-* DHCP automates IP allocation in enterprise environments
-* DNS integration improves network reliability and name resolution
-* IIS enables web hosting and server-side configuration
-* Proper configuration enhances performance and security
-
----
-
-## 💼 Real-World Relevance
-
-This project reflects practical skills used in:
-
-* System Administration
-* Network Engineering
-* Security Operations (SOC)
-
-It demonstrates the ability to configure and manage critical infrastructure services in a Windows-based environment.
-
----
-Got you — short, clean, and still powerful 👀✨
-
----
-
-## 🧩 Skills Demonstrated
+# 🧩 Skills Demonstrated
 
 * Windows Server administration (DHCP & IIS)
 * Network configuration (IP addressing, DNS integration)
@@ -180,11 +115,4 @@ Got you — short, clean, and still powerful 👀✨
 * Technical documentation and GitHub project presentation
 
 
-## 🚀 Outcome
-
-Successfully configured:
-
-* A working DHCP server with defined IP scope
-* DNS-integrated client addressing
-* A functional IIS web server with directory access and connection controls
 
