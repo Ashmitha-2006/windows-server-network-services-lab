@@ -10,7 +10,7 @@ Got you — I’ll **fix your screenshot section (with working names)** + add a 
 
 ### 📌 System Information Check
 
-![Figure 1.0](figure-1.png)
+
 Displays system date and full network configuration using:
 
 ```
